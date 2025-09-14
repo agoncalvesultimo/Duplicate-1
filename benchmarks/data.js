@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757875692622,
+  "lastUpdate": 1757875725243,
   "repoUrl": "https://github.com/agoncalvesultimo/Duplicate-1",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -520,6 +520,58 @@ window.BENCHMARK_DATA = {
             "range": "0.4042",
             "unit": "ms",
             "extra": "13765 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alvaro.goncalves@ultimo.com",
+            "name": "agoncalvesultimo",
+            "username": "agoncalvesultimo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e87796654b74fa1c0c0afe3148fa9e3407fdbb2c",
+          "message": "Add files via upload",
+          "timestamp": "2025-09-14T20:18:32+02:00",
+          "tree_id": "7578d85f949c294e0240d0aadc09e44094c6f499",
+          "url": "https://github.com/agoncalvesultimo/Duplicate-1/commit/e87796654b74fa1c0c0afe3148fa9e3407fdbb2c"
+        },
+        "date": 1757875724564,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0201,
+            "range": "0.3178",
+            "unit": "ms",
+            "extra": "49793 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.6713,
+            "range": "2.8911",
+            "unit": "ms",
+            "extra": "272 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0047,
+            "range": "0.2897",
+            "unit": "ms",
+            "extra": "210528 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.066,
+            "range": "0.32199999999999995",
+            "unit": "ms",
+            "extra": "15141 ops/sec"
           }
         ]
       }
