@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757877347260,
+  "lastUpdate": 1757877409716,
   "repoUrl": "https://github.com/agoncalvesultimo/Duplicate-1",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -2496,6 +2496,58 @@ window.BENCHMARK_DATA = {
             "range": "0.3916",
             "unit": "ms",
             "extra": "14778 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alvaro.goncalves@ultimo.com",
+            "name": "agoncalvesultimo",
+            "username": "agoncalvesultimo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2fad793e0f4be01c341680b3ee6093b42314a55c",
+          "message": "Create delete",
+          "timestamp": "2025-09-14T20:30:03+02:00",
+          "tree_id": "9468d6c59be066da1296f066ae1f504c2cf0be90",
+          "url": "https://github.com/agoncalvesultimo/Duplicate-1/commit/2fad793e0f4be01c341680b3ee6093b42314a55c"
+        },
+        "date": 1757877409010,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0191,
+            "range": "0.25229999999999997",
+            "unit": "ms",
+            "extra": "52307 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.167,
+            "range": "0.42090000000000005",
+            "unit": "ms",
+            "extra": "316 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0047,
+            "range": "0.249",
+            "unit": "ms",
+            "extra": "212213 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.0692,
+            "range": "0.3846",
+            "unit": "ms",
+            "extra": "14448 ops/sec"
           }
         ]
       }
