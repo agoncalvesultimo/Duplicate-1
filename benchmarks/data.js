@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757875632727,
+  "lastUpdate": 1757875639329,
   "repoUrl": "https://github.com/agoncalvesultimo/Duplicate-1",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -208,6 +208,58 @@ window.BENCHMARK_DATA = {
             "range": "0.3028",
             "unit": "ms",
             "extra": "15455 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alvaro.goncalves@ultimo.com",
+            "name": "agoncalvesultimo",
+            "username": "agoncalvesultimo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "71821390b9b5007d1ad7099206483dd70867053c",
+          "message": "Create delete",
+          "timestamp": "2025-09-14T20:16:51+02:00",
+          "tree_id": "c7d753fe5812e3b1a9a48b83132c2274425bf9e1",
+          "url": "https://github.com/agoncalvesultimo/Duplicate-1/commit/71821390b9b5007d1ad7099206483dd70867053c"
+        },
+        "date": 1757875639045,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0192,
+            "range": "0.27190000000000003",
+            "unit": "ms",
+            "extra": "52133 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.1869,
+            "range": "1.9344999999999999",
+            "unit": "ms",
+            "extra": "314 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0051,
+            "range": "0.3651",
+            "unit": "ms",
+            "extra": "196078 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.0658,
+            "range": "0.30469999999999997",
+            "unit": "ms",
+            "extra": "15209 ops/sec"
           }
         ]
       }
