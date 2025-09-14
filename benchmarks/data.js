@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757875648763,
+  "lastUpdate": 1757875674628,
   "repoUrl": "https://github.com/agoncalvesultimo/Duplicate-1",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -312,6 +312,58 @@ window.BENCHMARK_DATA = {
             "range": "0.3345",
             "unit": "ms",
             "extra": "15048 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alvaro.goncalves@ultimo.com",
+            "name": "agoncalvesultimo",
+            "username": "agoncalvesultimo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "15d87b90fc1a401130af799676fe1814b151fdf1",
+          "message": "Create delete",
+          "timestamp": "2025-09-14T20:17:52+02:00",
+          "tree_id": "4bf7c02ae3b01a169a1034ecbaa7271bb4791815",
+          "url": "https://github.com/agoncalvesultimo/Duplicate-1/commit/15d87b90fc1a401130af799676fe1814b151fdf1"
+        },
+        "date": 1757875674365,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0194,
+            "range": "0.3537",
+            "unit": "ms",
+            "extra": "51446 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.1804,
+            "range": "0.5985",
+            "unit": "ms",
+            "extra": "314 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0047,
+            "range": "0.259",
+            "unit": "ms",
+            "extra": "214380 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.0672,
+            "range": "0.3903",
+            "unit": "ms",
+            "extra": "14874 ops/sec"
           }
         ]
       }
