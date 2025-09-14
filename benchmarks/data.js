@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757877045585,
+  "lastUpdate": 1757877104669,
   "repoUrl": "https://github.com/agoncalvesultimo/Duplicate-1",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -2132,6 +2132,58 @@ window.BENCHMARK_DATA = {
             "range": "0.3519",
             "unit": "ms",
             "extra": "15180 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alvaro.goncalves@ultimo.com",
+            "name": "agoncalvesultimo",
+            "username": "agoncalvesultimo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eb49ad149c8fe20891dcb7c620c52f7fd3444df0",
+          "message": "Add files via upload",
+          "timestamp": "2025-09-14T20:28:16+02:00",
+          "tree_id": "0139ac650e810158fb78ef7bdbe24ed7eed2ad8b",
+          "url": "https://github.com/agoncalvesultimo/Duplicate-1/commit/eb49ad149c8fe20891dcb7c620c52f7fd3444df0"
+        },
+        "date": 1757877104421,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.019,
+            "range": "0.2106",
+            "unit": "ms",
+            "extra": "52599 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.1523,
+            "range": "0.4392999999999998",
+            "unit": "ms",
+            "extra": "317 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0046,
+            "range": "0.2615",
+            "unit": "ms",
+            "extra": "217146 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.0657,
+            "range": "0.3172",
+            "unit": "ms",
+            "extra": "15214 ops/sec"
           }
         ]
       }
