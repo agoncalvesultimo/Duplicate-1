@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757876341531,
+  "lastUpdate": 1757876382662,
   "repoUrl": "https://github.com/agoncalvesultimo/Duplicate-1",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -1092,6 +1092,58 @@ window.BENCHMARK_DATA = {
             "range": "0.3566",
             "unit": "ms",
             "extra": "14910 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alvaro.goncalves@ultimo.com",
+            "name": "agoncalvesultimo",
+            "username": "agoncalvesultimo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d713f2d702783f7fa8c9304459816b264b8386ca",
+          "message": "Add files via upload",
+          "timestamp": "2025-09-14T20:22:10+02:00",
+          "tree_id": "3c131db7b4c4a866d2f43eef657ec32872881d61",
+          "url": "https://github.com/agoncalvesultimo/Duplicate-1/commit/d713f2d702783f7fa8c9304459816b264b8386ca"
+        },
+        "date": 1757876382232,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0192,
+            "range": "0.22269999999999998",
+            "unit": "ms",
+            "extra": "51950 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.1824,
+            "range": "0.6703999999999999",
+            "unit": "ms",
+            "extra": "314 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0047,
+            "range": "0.263",
+            "unit": "ms",
+            "extra": "213981 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.0662,
+            "range": "0.3614",
+            "unit": "ms",
+            "extra": "15099 ops/sec"
           }
         ]
       }
