@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757875547522,
+  "lastUpdate": 1757875632727,
   "repoUrl": "https://github.com/agoncalvesultimo/Duplicate-1",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -156,6 +156,58 @@ window.BENCHMARK_DATA = {
             "range": "0.3303",
             "unit": "ms",
             "extra": "15058 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alvaro.goncalves@ultimo.com",
+            "name": "agoncalvesultimo",
+            "username": "agoncalvesultimo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6871885833c1a094f1d45ae2bcfeb8d3ede5e35d",
+          "message": "Add files via upload",
+          "timestamp": "2025-09-14T20:16:58+02:00",
+          "tree_id": "0f5a6eb27210a50e2f9ace45d89484a546959ff5",
+          "url": "https://github.com/agoncalvesultimo/Duplicate-1/commit/6871885833c1a094f1d45ae2bcfeb8d3ede5e35d"
+        },
+        "date": 1757875632460,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0187,
+            "range": "0.2266",
+            "unit": "ms",
+            "extra": "53600 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.2338,
+            "range": "2.2226000000000004",
+            "unit": "ms",
+            "extra": "309 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0047,
+            "range": "0.241",
+            "unit": "ms",
+            "extra": "211398 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.0647,
+            "range": "0.3028",
+            "unit": "ms",
+            "extra": "15455 ops/sec"
           }
         ]
       }
