@@ -1,60 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757877431488,
+  "lastUpdate": 1757877432212,
   "repoUrl": "https://github.com/agoncalvesultimo/Duplicate-1",
   "entries": {
     "n8n-mcp Benchmarks": [
-      {
-        "commit": {
-          "author": {
-            "email": "alvaro.goncalves@ultimo.com",
-            "name": "agoncalvesultimo",
-            "username": "agoncalvesultimo"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "277e603bec5a6a96cd5fd522edb22cb28fafc79b",
-          "message": "Add files via upload",
-          "timestamp": "2025-09-14T20:16:27+02:00",
-          "tree_id": "90219594d943c30a104570e6e8c04b747b010685",
-          "url": "https://github.com/agoncalvesultimo/Duplicate-1/commit/277e603bec5a6a96cd5fd522edb22cb28fafc79b"
-        },
-        "date": 1757875537676,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "sample - array sorting - small",
-            "value": 0.0192,
-            "range": "0.2467",
-            "unit": "ms",
-            "extra": "52126 ops/sec"
-          },
-          {
-            "name": "sample - array sorting - large",
-            "value": 3.1597,
-            "range": "0.4721000000000002",
-            "unit": "ms",
-            "extra": "316 ops/sec"
-          },
-          {
-            "name": "sample - string concatenation",
-            "value": 0.0046,
-            "range": "0.247",
-            "unit": "ms",
-            "extra": "215398 ops/sec"
-          },
-          {
-            "name": "sample - object creation",
-            "value": 0.0655,
-            "range": "0.27799999999999997",
-            "unit": "ms",
-            "extra": "15263 ops/sec"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -2600,6 +2548,58 @@ window.BENCHMARK_DATA = {
             "range": "0.3145",
             "unit": "ms",
             "extra": "15101 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alvaro.goncalves@ultimo.com",
+            "name": "agoncalvesultimo",
+            "username": "agoncalvesultimo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0d8b9240ce27c4562e72262c595f70bc63590067",
+          "message": "Create delete",
+          "timestamp": "2025-09-14T20:30:48+02:00",
+          "tree_id": "17faa72c80227ea925f48d201226b17fcc9d9d30",
+          "url": "https://github.com/agoncalvesultimo/Duplicate-1/commit/0d8b9240ce27c4562e72262c595f70bc63590067"
+        },
+        "date": 1757877431793,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.019,
+            "range": "0.21939999999999998",
+            "unit": "ms",
+            "extra": "52560 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.1605,
+            "range": "0.43089999999999984",
+            "unit": "ms",
+            "extra": "316 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0047,
+            "range": "0.2742",
+            "unit": "ms",
+            "extra": "212327 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.0662,
+            "range": "0.3568",
+            "unit": "ms",
+            "extra": "15108 ops/sec"
           }
         ]
       }
